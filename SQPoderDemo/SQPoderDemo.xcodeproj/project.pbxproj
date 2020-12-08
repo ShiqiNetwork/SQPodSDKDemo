@@ -16,8 +16,9 @@
 		EA74A482257E5A83008C79C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74A481257E5A83008C79C9 /* main.m */; };
 		EA74A48C257E5A83008C79C9 /* SQPoderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74A48B257E5A83008C79C9 /* SQPoderDemoTests.m */; };
 		EA74A497257E5A83008C79C9 /* SQPoderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74A496257E5A83008C79C9 /* SQPoderDemoUITests.m */; };
-		EA74A4C2257E6460008C79C9 /* SQPodSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA74A4BE257E6244008C79C9 /* SQPodSDK.framework */; };
-		EA74A4C3257E6460008C79C9 /* SQPodSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA74A4BE257E6244008C79C9 /* SQPodSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA8F13D7257F1B170002E1DC /* SQPodSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8F13D5257F1AFA0002E1DC /* SQPodSDK.framework */; };
+		EA8F13D8257F1B170002E1DC /* SQPodSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA8F13D5257F1AFA0002E1DC /* SQPodSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA8F13DD257F1EB80002E1DC /* SQPoderSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA8F13DC257F1EB80002E1DC /* SQPoderSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EA74A4C3257E6460008C79C9 /* SQPodSDK.framework in Embed Frameworks */,
+				EA8F13D8257F1B170002E1DC /* SQPodSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +71,8 @@
 		EA74A492257E5A83008C79C9 /* SQPoderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQPoderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA74A496257E5A83008C79C9 /* SQPoderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPoderDemoUITests.m; sourceTree = "<group>"; };
 		EA74A498257E5A83008C79C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA74A4BE257E6244008C79C9 /* SQPodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQPodSDK.framework; sourceTree = "<group>"; };
+		EA8F13D5257F1AFA0002E1DC /* SQPodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQPodSDK.framework; sourceTree = "<group>"; };
+		EA8F13DC257F1EB80002E1DC /* SQPoderSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SQPoderSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA74A4C2257E6460008C79C9 /* SQPodSDK.framework in Frameworks */,
+				EA8F13D7257F1B170002E1DC /* SQPodSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +104,8 @@
 		EA74A463257E5A7D008C79C9 = {
 			isa = PBXGroup;
 			children = (
+				EA8F13DC257F1EB80002E1DC /* SQPoderSDK.podspec */,
+				EA8F13D4257F1AFA0002E1DC /* frameworks */,
 				EA74A46E257E5A7D008C79C9 /* SQPoderDemo */,
 				EA74A48A257E5A83008C79C9 /* SQPoderDemoTests */,
 				EA74A495257E5A83008C79C9 /* SQPoderDemoUITests */,
@@ -122,7 +126,6 @@
 		EA74A46E257E5A7D008C79C9 /* SQPoderDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EA74A4A7257E5AC8008C79C9 /* SQPoderSDK */,
 				EA74A46F257E5A7D008C79C9 /* AppDelegate.h */,
 				EA74A470257E5A7D008C79C9 /* AppDelegate.m */,
 				EA74A472257E5A7D008C79C9 /* SceneDelegate.h */,
@@ -156,12 +159,12 @@
 			path = SQPoderDemoUITests;
 			sourceTree = "<group>";
 		};
-		EA74A4A7257E5AC8008C79C9 /* SQPoderSDK */ = {
+		EA8F13D4257F1AFA0002E1DC /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA74A4BE257E6244008C79C9 /* SQPodSDK.framework */,
+				EA8F13D5257F1AFA0002E1DC /* SQPodSDK.framework */,
 			);
-			path = SQPoderSDK;
+			path = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +272,7 @@
 			files = (
 				EA74A47F257E5A83008C79C9 /* LaunchScreen.storyboard in Resources */,
 				EA74A47C257E5A83008C79C9 /* Assets.xcassets in Resources */,
+				EA8F13DD257F1EB80002E1DC /* SQPoderSDK.podspec in Resources */,
 				EA74A47A257E5A7D008C79C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,12 +478,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SQPoderDemo/SQPoderSDK",
+					"$(PROJECT_DIR)/frameworks",
 				);
 				INFOPLIST_FILE = SQPoderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiqichuban.SQPoderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,12 +502,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SQPoderDemo/SQPoderSDK",
+					"$(PROJECT_DIR)/frameworks",
 				);
 				INFOPLIST_FILE = SQPoderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiqichuban.SQPoderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -6,11 +6,7 @@
 	<dict>
 		<key>Headers/SQPodSDK.h</key>
 		<data>
-		BFwQmdpqmOJcG1GyVB/5G5TBPxY=
-		</data>
-		<key>Headers/SQWKBlock.h</key>
-		<data>
-		ifDwryHrY4K4MkODI5twC1kkjy8=
+		vRXwLYZRMnTE8u0Y+8as+431CVY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -31,22 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BFwQmdpqmOJcG1GyVB/5G5TBPxY=
+			vRXwLYZRMnTE8u0Y+8as+431CVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			IJP/KK5zfriPLJkoWPVGSXp9dqIoBpInvCxDjbbtr4g=
-			</data>
-		</dict>
-		<key>Headers/SQWKBlock.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ifDwryHrY4K4MkODI5twC1kkjy8=
-			</data>
-			<key>hash2</key>
-			<data>
-			mg47kBCbMPY6tN1FLrXdN9+y2Hdfy79R+ozfJSqYYQw=
+			t51XwYoYRXwQjy8vuNZmhZO/FZA6oG/WwrtbuuqfcOo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

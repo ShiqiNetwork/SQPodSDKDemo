@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
-#import <SQWKBlock.h>
 
 
 //! Project version number for SQPodSDK.
@@ -16,6 +15,8 @@ FOUNDATION_EXPORT double SQPodSDKVersionNumber;
 //! Project version string for SQPodSDK.
 FOUNDATION_EXPORT const unsigned char SQPodSDKVersionString[];
 
+
+typedef void(^SQWKBlock)(id _Nullable data);
 
 NS_ASSUME_NONNULL_BEGIN
 

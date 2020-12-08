@@ -1,6 +1,0 @@
-framework module SQPodSDK {
-  umbrella header "SQPodSDK.h"
-
-  export *
-  module * { export * }
-}

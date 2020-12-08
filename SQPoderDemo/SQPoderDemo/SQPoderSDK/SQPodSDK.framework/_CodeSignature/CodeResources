@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/SQPodSDK1.h</key>
+		<key>Headers/SQPodSDK.h</key>
 		<data>
-		+2HqRzIYVotDJieTVAA9r07ZNdY=
+		BFwQmdpqmOJcG1GyVB/5G5TBPxY=
+		</data>
+		<key>Headers/SQWKBlock.h</key>
+		<data>
+		ifDwryHrY4K4MkODI5twC1kkjy8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G+tDCxTxDB/VpdM8w1Fex0ytK3E=
+		z9jv1P+0ANB1URelFRk8AE8KT74=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -23,15 +27,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/SQPodSDK1.h</key>
+		<key>Headers/SQPodSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+2HqRzIYVotDJieTVAA9r07ZNdY=
+			BFwQmdpqmOJcG1GyVB/5G5TBPxY=
 			</data>
 			<key>hash2</key>
 			<data>
-			eXaBFCemjxoFpg5VaL+EZH382N3ZCa/xOr/OZA4MI98=
+			IJP/KK5zfriPLJkoWPVGSXp9dqIoBpInvCxDjbbtr4g=
+			</data>
+		</dict>
+		<key>Headers/SQWKBlock.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ifDwryHrY4K4MkODI5twC1kkjy8=
+			</data>
+			<key>hash2</key>
+			<data>
+			mg47kBCbMPY6tN1FLrXdN9+y2Hdfy79R+ozfJSqYYQw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <SQPodSDK/SQPodSDK.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [[SQPodSDK defaultSDK] initSDK:@"shiqi" url:[NSURL URLWithString:@"https://stage-sbs.shiqipod.com/simple/mall/shop/1/login/mobile"]];
+    [SQPodSDK defaultSDK].webView.frame = self.view.bounds;
+    [self.view addSubview:[SQPodSDK defaultSDK].webView];
 }
 
 

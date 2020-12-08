@@ -1,5 +1,7 @@
 # SQPodSDK
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/SQPodSDK.svg?style=flat)](http://cocoapods.org/?q=SQPodSDK)
+
 如何集成拾柒pod
 ------------
 1、导入SDK

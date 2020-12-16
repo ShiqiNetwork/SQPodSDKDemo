@@ -17,6 +17,8 @@ pod 'SQPodSDK'
 
 2、配置info.plist
 
+在URL types下添加{appID}.shiqipod.com
+
 3、初始化SDK并显示UI
 
 ```

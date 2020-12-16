@@ -19,7 +19,18 @@ pod 'SQPodSDK'
 
 在URL types下添加{appID}.shiqipod.com
 
-3、初始化SDK并显示UI
+3、修改SceneDelegate.m
+
+```
+- (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts{
+    [[SQPodSDK defaultSDK] shouldRouteURL:URLContexts.anyObject.URL];
+    /*
+    your code
+    */
+}
+```
+
+4、初始化SDK并显示UI
 
 ```
 [[SQPodSDK defaultSDK] initSDK:@"shiqi" url:[NSURL URLWithString:@"https://stage-sbs.shiqipod.com/simple/mall/shop/1/login/mobile"]];

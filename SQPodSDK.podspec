@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SQPodSDK"
-  spec.version      = "0.1.7"
+  spec.version      = "0.1.8"
   spec.summary      = "SQPod SDK for iOS"
   spec.description  = <<-DESC
     SQPod SDK for iOS，用于快速集成拾柒pod商城

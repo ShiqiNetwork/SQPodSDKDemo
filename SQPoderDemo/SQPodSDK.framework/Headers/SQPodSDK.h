@@ -52,6 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeListener:(NSString *)name;
 
 @property (nonatomic,readonly,copy) NSString *appkey;
+@property (nonatomic,readonly,copy) NSString *url;
 @property (nonatomic,readonly,copy) NSString *scheme;
 
 @end

@@ -21,7 +21,7 @@
 
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidDisappear:animated];
-    [[SQPodSDK defaultSDK] initSDK:@"shiqi" url:[NSURL URLWithString:@"https://stage-sbs.shiqipod.com/simple/mall/shop/1/login/mobile"]];
+    [[SQPodSDK defaultSDK] initSDK:@"shiqi" url:[NSURL URLWithString:@"https://stage-sbs-test.shiqipod.com/simple/mall/shop/1/login/mobile"]];
     [SQPodSDK defaultSDK].webView.frame = self.view.bounds;
     
     [[SQPodSDK defaultSDK] addListener:@"chooseImages" callback:^(id  _Nullable data) {

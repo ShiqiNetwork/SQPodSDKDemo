@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SQPodSDK"
-  spec.version      = "0.1.8"
+  spec.version      = "0.1.10"
   spec.summary      = "SQPod SDK for iOS"
   spec.description  = <<-DESC
     SQPod SDK for iOS，用于快速集成拾柒pod商城
@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.platform     = :ios, "9.0"
   spec.requires_arc = true
-  spec.vendored_frameworks = 'SQPodSDK.framework'
+  spec.vendored_frameworks = 'SQPoderDemo/SQPodSDK.framework'
   spec.frameworks = 'Foundation','WebKit'
 end
